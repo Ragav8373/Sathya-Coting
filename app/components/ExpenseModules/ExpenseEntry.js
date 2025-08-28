@@ -1275,7 +1275,7 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: moderateScale(14),
     fontWeight: "500",
-  },
+  }
 });
 
 export default ExpenseEntry;
