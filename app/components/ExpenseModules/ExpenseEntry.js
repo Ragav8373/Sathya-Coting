@@ -884,17 +884,17 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#f5f5f5",
   },
-  // header: {
-  //   backgroundColor: "#8346e5ff",
-  //   padding: verticalScale(15),
-  //   alignItems: "center",
-  //   justifyContent: "center",
-  // },
-  // headerTitle: {
-  //   color: "#fff",
-  //   fontSize: moderateScale(18),
-  //   fontWeight: "bold",
-  // },
+  header: {
+    backgroundColor: "#8346e5ff",
+    padding: verticalScale(15),
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  headerTitle: {
+    color: "#fff",
+    fontSize: moderateScale(18),
+    fontWeight: "bold",
+  },
   errorContainer: {
     backgroundColor: "#ffebee",
     padding: scale(10),
@@ -978,7 +978,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   picker: {
-    height: verticalScale(50),
+    height: verticalScale(55),
   },
   poText: {
     fontSize: moderateScale(12),
